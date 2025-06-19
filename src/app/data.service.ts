@@ -12,6 +12,7 @@ public dataEmitter = new BehaviorSubject<string>('');
 // databox=this.dataEmitter.asObservable();
     adddata(data: string){
         //this.dataemmiter.emit(data);
+      
         
         this.dataEmitter.next(data);   
 
